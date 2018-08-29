@@ -1,5 +1,5 @@
-#Copyright (c) 2018 Phil Chen All rights reserved.
-#This work is licensed under the terms of the MIT license.  
+#Copyright (c) 2018 Author Phil Chen All rights reserved.
+#This work is licensed under the terms of the MIT license.
 
 # Lambda that returns JSON
 
