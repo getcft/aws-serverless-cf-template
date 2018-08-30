@@ -1,6 +1,6 @@
 # aws-serverless-cfn-template
 
-Copyright (c) 2018 Author Phil Chen All rights reserved.
+Copyright (c) 2018 Phil Chen All rights reserved.
 This work is licensed under the terms of the MIT license.
 
 Serverless AWS CloudFormation template leveraging Lambda and API Gateway
