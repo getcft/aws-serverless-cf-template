@@ -20,4 +20,4 @@ This CloudFormation template written in YAML format states where the Lambda appl
 
 ### lambda-app.zip
 
-This is a compressed zip file of lambda-app.py which is a simple function which when called outputs hard coded JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
+This is a compressed zip file of lambda-app.py which is a simple function which when called outputs hard coded sample JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
