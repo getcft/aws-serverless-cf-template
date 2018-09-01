@@ -60,6 +60,8 @@ For the permission settings in relation to the actual serverless application rol
 
 ### **IAM User** (To Execute the serverless-cft.yaml CloudFormation Template)
 
+#### Permissions:
+
 * AWSCloudFormationReadOnlyAccess
 * AmazonAPIGatewayAdministrator
 * AWSLambdaFullAccess
