@@ -66,3 +66,5 @@ For the permission settings in relation to the actual serverless application rol
 * AmazonAPIGatewayAdministrator
 * AWSLambdaFullAccess
 * AmazonS3FullAccess
+
+*Note you can make these permissions more strict depending on you needs
