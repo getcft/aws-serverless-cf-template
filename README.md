@@ -29,7 +29,7 @@ This is a compressed zip file of lambda-app.py which is a simple function which 
 
 For the permission settings in relation to the actual serverless application role referenced in this template the below permissions should be given:
 
-## **IAM Role** (For the serverless application)
+### **IAM Role** (For the serverless application)
 
 #### Permissions:
 
@@ -58,7 +58,7 @@ For the permission settings in relation to the actual serverless application rol
 }
 ```
 
-## **IAM User** (To Execute the serverless-cft.yaml CloudFormation Template)
+### **IAM User** (To Execute the serverless-cft.yaml CloudFormation Template)
 
 * AWSCloudFormationReadOnlyAccess
 * AmazonAPIGatewayAdministrator
