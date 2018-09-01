@@ -25,11 +25,22 @@ This CloudFormation template written in YAML format states where the Lambda appl
 
 This is a compressed zip file of lambda-app.py which is a simple function which when called outputs hard coded sample JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
 
-## Permissions
+## IAM Permissions
 
-For the permission settings in relation to the actual serverless application role referenced in this template the below permissions should be given:
+There are two IAM permissions outlined below, one is a IAM User to execute the CloudFormation Template to create the Serverless application (API Gateway and Lambda), and the other for the Serverless application IAM Role to allow your application to execute.
 
-### **IAM Role** (For the serverless application)
+### **IAM User** (To Execute the serverless-cft.yaml CloudFormation Template)
+
+#### Permissions:
+
+* AWSCloudFormationReadOnlyAccess
+* AmazonAPIGatewayAdministrator
+* AWSLambdaFullAccess
+* AmazonS3FullAccess
+
+*Note you can make these permissions more strict depending on your needs*
+
+### **IAM Role** (For the Serverless application)
 
 #### Permissions:
 
@@ -56,15 +67,5 @@ For the permission settings in relation to the actual serverless application rol
     }
   ]
 }
+
 ```
-
-### **IAM User** (To Execute the serverless-cft.yaml CloudFormation Template)
-
-#### Permissions:
-
-* AWSCloudFormationReadOnlyAccess
-* AmazonAPIGatewayAdministrator
-* AWSLambdaFullAccess
-* AmazonS3FullAccess
-
-*Note you can make these permissions more strict depending on your needs
