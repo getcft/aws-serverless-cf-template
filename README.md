@@ -67,4 +67,4 @@ For the permission settings in relation to the actual serverless application rol
 * AWSLambdaFullAccess
 * AmazonS3FullAccess
 
-*Note you can make these permissions more strict depending on you needs
+*Note you can make these permissions more strict depending on your needs
