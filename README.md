@@ -1,8 +1,5 @@
 # aws-serverless-cfn-template
 
-Copyright (c) 2018 Phil Chen All rights reserved.
-This work is licensed under the terms of the MIT license.
-
 AWS CloudFormation template creating a Serverless application using AWS Lambda and API Gateway
 
 ## Description
