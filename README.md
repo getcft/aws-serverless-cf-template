@@ -6,6 +6,12 @@ AWS CloudFormation template creating a Serverless application using AWS Lambda a
 
 This AWS CloudFormation template creates a AWS Lambda Serverless application which outputs generic JSON data sitting behind AWS API Gateway to handle a RESTful HTTP call via curl or a web browser. This Serverless application example can be useful when natively creating Serverless endpoints through CloudFormation. Other tools exist to do similar like serverless.com or Zappa which also allow for more end to end development built in. This however is meant to be as simplistic as possible just leveraging CloudFormation.
 
+_***note AWS S3, API Gateway, and Lambda will incur costs**_
+
+* [S3 pricing](https://aws.amazon.com/s3/pricing/)
+* [API Gateway pricing](https://aws.amazon.com/api-gateway/pricing/)
+* [Lambda pricing](https://aws.amazon.com/lambda/pricing/)
+
 ## Components
 
 ### serverless-cft.yaml
