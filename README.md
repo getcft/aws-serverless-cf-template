@@ -1,4 +1,4 @@
-# aws-serverless-cfn-template
+# serverless-cf-template
 
 AWS CloudFormation template creating a Serverless application using AWS Lambda and API Gateway
 
@@ -14,7 +14,7 @@ _***note AWS S3, API Gateway, and Lambda will incur costs**_
 
 ## Components
 
-### serverless-cft.yaml
+### serverless-cf-template.yml
 
 This CloudFormation template written in YAML format states where the Lambda application exists, what it is named along with some configuration settings such as memory allocated, timeout for the application, runtime interpreter, and also creates an API Gateway endpoint with the proper handling of HTTP response codes in concert with the Lambda application.
 
@@ -32,7 +32,7 @@ This is a compressed zip file of lambda-app.py which is a simple function which 
 
 There are two IAM permissions outlined below, one is a IAM User to execute the CloudFormation Template to create the Serverless application (API Gateway and Lambda), and the other for the Serverless application IAM Role to allow your application to execute.
 
-### **IAM User** (To Execute the serverless-cft.yaml CloudFormation Template)
+### **IAM User** (To Execute the serverless-cf-template.yml CloudFormation Template)
 
 #### Permissions:
 
