@@ -1,4 +1,5 @@
 # serverless-cf-template
+[![Build Status](https://travis-ci.org/getcft/aws-serverless-cf-template.svg?branch=master)](https://travis-ci.org/getcft/aws-serverless-cf-template)
 
 AWS CloudFormation template creating a Serverless application using AWS Lambda and API Gateway
 
