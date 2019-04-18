@@ -13,7 +13,7 @@ Amazon API Gateway is a fully managed service that makes it easy for developers 
 
 AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.
 
-<img src="serverless-cft.png" alt="AWS Serverless" />
+<img src="/img/serverless-cft.png" alt="AWS Serverless" />
 
 AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
 
@@ -67,12 +67,12 @@ As with most AWS services you will incur costs for usage. For this CloudFormatio
 * Things to change or note in the CloudFormation Template
   * Change your S3Bucket to the name of your bucket where you put the lambda.zip
   * If you made your own role name change the role name in two places from "role/serverless" to the role name you created
-  * To test use the URL provided in the Outputs under TestURL in a browser
 
 ## AWS Lambda function in Python
 
 * lambda.zip (located in the lambda-app folder in the repo)
-  * This is a compressed zip file of lambda.py which is a simple function which when called outputs hard coded sample JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
+  * This is a compressed zip file of lambda-app.py which is a simple function which when called outputs hard coded sample JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
+  * Make sure you upload it to the S3 bucket you are using and named in your CloudFormation template.
 
 
 ## Deploy the CloudFormation Template
@@ -80,11 +80,11 @@ As with most AWS services you will incur costs for usage. For this CloudFormatio
 * AWS Management Console
 
    * Login to *AWS Management Console*
-   * Launch under *CloudFormation* your edited *serverless-cf-template.yml* (included in this repo)
+   * Launch under *CloudFormation* your **edited** *serverless-cf-template.yml* (included in this repo)
 
 * CloudFormation Fields:
 
-   * *Stack name* (Enter a name to associate to your AWS CloudTrail deployment)
+   * *Stack name* (Enter a name to associate to your AWS Serverless deployment)
    * Continue choosing *Next* and then *Create* (it may take several mintues to create resources)
 
 ## Results of the CloudFormation Template
