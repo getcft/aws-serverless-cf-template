@@ -72,7 +72,7 @@ As with most AWS services you will incur costs for usage. For this CloudFormatio
 ## AWS Lambda function in Python
 
 * lambda.zip (located in the lambda-app folder in the repo)
-  * This is a compressed zip file of lambda-app.py which is a simple function which when called outputs hard coded sample JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
+  * This is a compressed zip file of lambda.py which is a simple function which when called outputs hard coded sample JSON. Lambda reads this zip file and uses the designated interpreter to execute it. In this example we are using Python as our language and the Python interpreter.
 
 
 ## Deploy the CloudFormation Template
