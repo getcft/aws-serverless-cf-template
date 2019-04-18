@@ -13,7 +13,7 @@ Amazon API Gateway is a fully managed service that makes it easy for developers 
 
 AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.
 
-<img src="/img/serverless-cft.png" alt="AWS Serverless" />
+<img src="serverless-cft.png" alt="AWS Serverless" />
 
 AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
 
