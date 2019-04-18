@@ -22,9 +22,9 @@ AWS CloudFormation provides a common language for you to describe and provision 
 As with most AWS services you will incur costs for usage. For this CloudFormation template the resources that incur costs are as follows
 
 * Pricing:
-  * [S3 pricing](https://aws.amazon.com/s3/pricing/)
-  * [API Gateway pricing](https://aws.amazon.com/api-gateway/pricing/)
-  * [Lambda pricing](https://aws.amazon.com/lambda/pricing/)
+  * <a href="https://aws.amazon.com/s3/pricing/" target="_blank">S3 pricing</a>
+  * <a href="https://aws.amazon.com/api-gateway/pricing/" target="_blank">API Gateway pricing</a>
+  * <a href="https://aws.amazon.com/lambda/pricing/" target="_blank">Lambda pricing</a>
 
 ## Prerequisites
 
