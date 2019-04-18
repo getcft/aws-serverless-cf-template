@@ -96,7 +96,6 @@ In the *AWS Management Console* you should be able to *verify* the following hav
    * A Python Lambda Function
    * Test using the URL provided in the CloudFormation Outputs under TestURL in a browser, you should see the following JSON output:
 
-    * ```json
+```json
 {"data": {"a": 1, "c": 3, "b": 2}}
 ```
-&nbsp
