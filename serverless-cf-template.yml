@@ -1,4 +1,4 @@
-# Copyright [2018] [Phil Chen]
+# Copyright [2024] [Phil Chen]
 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -54,7 +54,7 @@ Resources:
       Handler: lambda.endpoint
       Role: !Sub 'arn:aws:iam::${AWS::AccountId}:role/serverless'
       Timeout: '30'
-      Runtime: 'python2.7'
+      Runtime: 'python3.11'
   ServerlessRestApi:
     Type: 'AWS::ApiGateway::RestApi'
     Properties:
